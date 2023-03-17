@@ -1,0 +1,219 @@
+[
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "476c9280-aadc-464d-95af-b55beeaddc6c"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "categories.id": {
+                "$oid": "5d3ac309a6992471b7c97fac"
+            },
+            "default_combination.price_after_discount": {
+                "$gte": 0,
+                "$lte": 300000
+            },
+            "classification": {
+                "$nin": [
+                    "gwp_non_sellable",
+                    "bundle_non_sellable",
+                    "mask_packages",
+                    "testers"
+                ]
+            },
+            "status": "approved",
+            "is_deleted": false,
+            "brand.is_active_in_sociolla": true,
+            "is_disable_in_apps": false,
+            "$or": [
+                {
+                    "is_active_in_sociolla": true
+                },
+                {
+                    "is_active_in_review": true
+                }
+            ],
+            "combinations.is_active_in_sociolla": true
+        },
+        "sort": {
+            "is_in_stock_sociolla": -1,
+            "name": 1,
+            "_id": 1
+        },
+       
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "5a8906b4-0337-4acf-9a83-50ad45a51151"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "4d8fa78d-f6fd-449b-b25e-269fc9edc39b"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "42c947ba-a1a8-4edf-874a-9be32c002e58"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "categories.id": {
+                "$oid": "5d3ac309a6992471b7c97fac"
+            },
+            "default_combination.price_after_discount": {
+                "$gte": 0,
+                "$lte": 300000
+            },
+            "classification": {
+                "$nin": [
+                    "gwp_non_sellable",
+                    "bundle_non_sellable",
+                    "mask_packages",
+                    "testers"
+                ]
+            },
+            "status": "approved",
+            "is_deleted": false,
+            "brand.is_active_in_sociolla": true,
+            "is_disable_in_apps": false,
+            "$or": [
+                {
+                    "is_active_in_sociolla": true
+                },
+                {
+                    "is_active_in_review": true
+                }
+            ],
+            "combinations.is_active_in_sociolla": true
+        },
+        "sort": {
+            "is_in_stock_sociolla": -1,
+            "name": 1,
+            "_id": 1
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "5a8906b4-0337-4acf-9a83-50ad45a51151"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    }
+]
