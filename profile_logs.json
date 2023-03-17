@@ -1,4 +1,4 @@
-[{
+{
   op: 'command',
   ns: 'uat_catalog3.products',
   command: {
@@ -65,4 +65,4 @@
     }
   ],
   user: 'root@admin'
-}]
+}
