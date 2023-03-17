@@ -1,0 +1,526 @@
+[
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "projection": {
+            "id": 1,
+            "is_disable_in_apps": 1,
+            "odoo_sync": 1,
+            "is_organic_product": 1,
+            "categories": 1,
+            "is_mask": 1,
+            "is_featured_tracking_promo": 1,
+            "preorder": 1,
+            "tactical_promo_type": 1,
+            "curated_mask_boxes": 1,
+            "is_priority": 1,
+            "my_sociolla_sql_id": 1,
+            "description": 1,
+            "hide_pack_content": 1,
+            "ean_no": 1,
+            "sku": 1,
+            "max_limit_per_order": 1,
+            "pack_detail": 1,
+            "name": 1,
+            "slug": 1,
+            "url_sociolla": 1,
+            "images": 1,
+            "combinations": 1,
+            "discounts": 1,
+            "default_category": 1,
+            "visibility": 1,
+            "status": 1,
+            "is_our_pick": 1,
+            "classification": 1,
+            "brand": 1,
+            "is_pack": 1,
+            "review_stats": 1,
+            "is_active": 1,
+            "is_deleted": 1,
+            "is_active_in_sociolla": 1,
+            "is_active_in_lulla": 1,
+            "is_active_in_carasun": 1,
+            "is_active_in_cosrx": 1,
+            "is_active_in_b2b": 1,
+            "is_active_in_offline_store": 1,
+            "is_active_in_review": 1,
+            "created_at": 1,
+            "updated_at": 1,
+            "stores": 1,
+            "sbd_categories": 1,
+            "is_product_ticket": 1,
+            "is_non_discounted": 1,
+            "bogo_rules": 1,
+            "is_limited": 1,
+            "is_exclusive": 1,
+            "is_soco_event": 1,
+            "is_dangerous": 1,
+            "is_online": 1,
+            "is_bundle_pack": 1,
+            "parent_category": 1,
+            "mask_detail": 1,
+            "is_pink_university_game": 1,
+            "is_out_of_stock_sociolla": 1,
+            "is_out_of_stock_sociolla_vn": 1,
+            "is_out_of_stock_lilla": 1,
+            "is_out_of_stock_cosrx": 1,
+            "is_whats_new": 1,
+            "ranking": 1,
+            "plan_logo_url": 1,
+            "background_image_url": 1,
+            "has_free_products": 1,
+            "curated_plans": 1,
+            "plan_ranking": 1,
+            "is_active_in_sociolla_vn": 1,
+            "total_wishlist": 1,
+            "meta_title": 1,
+            "meta_keywords": 1,
+            "platforms": 1,
+            "is_discontinue": 1,
+            "frame_rules": 1,
+            "is_active_in_offline_store_lilla": 1,
+            "is_for_moms": 1,
+            "is_for_baby_kids": 1,
+            "thirty_days_total_orders": 1,
+            "seven_days_total_orders": 1
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "476c9280-aadc-464d-95af-b55beeaddc6c"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "projection": {
+            "id": 1,
+            "is_disable_in_apps": 1,
+            "odoo_sync": 1,
+            "is_organic_product": 1,
+            "categories": 1,
+            "is_mask": 1,
+            "is_featured_tracking_promo": 1,
+            "preorder": 1,
+            "tactical_promo_type": 1,
+            "curated_mask_boxes": 1,
+            "is_priority": 1,
+            "my_sociolla_sql_id": 1,
+            "description": 1,
+            "hide_pack_content": 1,
+            "ean_no": 1,
+            "sku": 1,
+            "max_limit_per_order": 1,
+            "pack_detail": 1,
+            "name": 1,
+            "slug": 1,
+            "url_sociolla": 1,
+            "images": 1,
+            "combinations": 1,
+            "discounts": 1,
+            "default_category": 1,
+            "visibility": 1,
+            "status": 1,
+            "is_our_pick": 1,
+            "classification": 1,
+            "brand": 1,
+            "is_pack": 1,
+            "review_stats": 1,
+            "is_active": 1,
+            "is_deleted": 1,
+            "is_active_in_sociolla": 1,
+            "is_active_in_lulla": 1,
+            "is_active_in_carasun": 1,
+            "is_active_in_cosrx": 1,
+            "is_active_in_b2b": 1,
+            "is_active_in_offline_store": 1,
+            "is_active_in_review": 1,
+            "created_at": 1,
+            "updated_at": 1,
+            "stores": 1,
+            "sbd_categories": 1,
+            "is_product_ticket": 1,
+            "is_non_discounted": 1,
+            "bogo_rules": 1,
+            "is_limited": 1,
+            "is_exclusive": 1,
+            "is_soco_event": 1,
+            "is_dangerous": 1,
+            "is_online": 1,
+            "is_bundle_pack": 1,
+            "parent_category": 1,
+            "mask_detail": 1,
+            "is_pink_university_game": 1,
+            "is_out_of_stock_sociolla": 1,
+            "is_out_of_stock_sociolla_vn": 1,
+            "is_out_of_stock_lilla": 1,
+            "is_out_of_stock_cosrx": 1,
+            "is_whats_new": 1,
+            "ranking": 1,
+            "plan_logo_url": 1,
+            "background_image_url": 1,
+            "has_free_products": 1,
+            "curated_plans": 1,
+            "plan_ranking": 1,
+            "is_active_in_sociolla_vn": 1,
+            "total_wishlist": 1,
+            "meta_title": 1,
+            "meta_keywords": 1,
+            "platforms": 1,
+            "is_discontinue": 1,
+            "frame_rules": 1,
+            "is_active_in_offline_store_lilla": 1,
+            "is_for_moms": 1,
+            "is_for_baby_kids": 1,
+            "thirty_days_total_orders": 1,
+            "seven_days_total_orders": 1
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "4d8fa78d-f6fd-449b-b25e-269fc9edc39b"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "$or": [
+                {
+                    "ean_no": "8999999566654"
+                },
+                {
+                    "combinations.ean_no": "8999999566654"
+                },
+                {
+                    "combinations.i18n.vi.ean_no": "8999999566654"
+                },
+                {
+                    "i18n.vi.ean_no": "8999999566654"
+                }
+            ],
+            "is_deleted": false
+        },
+        "projection": {
+            "id": 1,
+            "is_disable_in_apps": 1,
+            "odoo_sync": 1,
+            "is_organic_product": 1,
+            "categories": 1,
+            "is_mask": 1,
+            "is_featured_tracking_promo": 1,
+            "preorder": 1,
+            "tactical_promo_type": 1,
+            "curated_mask_boxes": 1,
+            "is_priority": 1,
+            "my_sociolla_sql_id": 1,
+            "description": 1,
+            "hide_pack_content": 1,
+            "ean_no": 1,
+            "sku": 1,
+            "max_limit_per_order": 1,
+            "pack_detail": 1,
+            "name": 1,
+            "slug": 1,
+            "url_sociolla": 1,
+            "images": 1,
+            "combinations": 1,
+            "discounts": 1,
+            "default_category": 1,
+            "visibility": 1,
+            "status": 1,
+            "is_our_pick": 1,
+            "classification": 1,
+            "brand": 1,
+            "is_pack": 1,
+            "review_stats": 1,
+            "is_active": 1,
+            "is_deleted": 1,
+            "is_active_in_sociolla": 1,
+            "is_active_in_lulla": 1,
+            "is_active_in_carasun": 1,
+            "is_active_in_cosrx": 1,
+            "is_active_in_b2b": 1,
+            "is_active_in_offline_store": 1,
+            "is_active_in_review": 1,
+            "created_at": 1,
+            "updated_at": 1,
+            "stores": 1,
+            "sbd_categories": 1,
+            "is_product_ticket": 1,
+            "is_non_discounted": 1,
+            "bogo_rules": 1,
+            "is_limited": 1,
+            "is_exclusive": 1,
+            "is_soco_event": 1,
+            "is_dangerous": 1,
+            "is_online": 1,
+            "is_bundle_pack": 1,
+            "parent_category": 1,
+            "mask_detail": 1,
+            "is_pink_university_game": 1,
+            "is_out_of_stock_sociolla": 1,
+            "is_out_of_stock_sociolla_vn": 1,
+            "is_out_of_stock_lilla": 1,
+            "is_out_of_stock_cosrx": 1,
+            "is_whats_new": 1,
+            "ranking": 1,
+            "plan_logo_url": 1,
+            "background_image_url": 1,
+            "has_free_products": 1,
+            "curated_plans": 1,
+            "plan_ranking": 1,
+            "is_active_in_sociolla_vn": 1,
+            "total_wishlist": 1,
+            "meta_title": 1,
+            "meta_keywords": 1,
+            "platforms": 1,
+            "is_discontinue": 1,
+            "frame_rules": 1,
+            "is_active_in_offline_store_lilla": 1,
+            "is_for_moms": 1,
+            "is_for_baby_kids": 1,
+            "thirty_days_total_orders": 1,
+            "seven_days_total_orders": 1
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "42c947ba-a1a8-4edf-874a-9be32c002e58"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    },
+    {
+        "find": "products",
+        "filter": {
+            "categories.id": {
+                "$oid": "5d3ac309a6992471b7c97fac"
+            },
+            "default_combination.price_after_discount": {
+                "$gte": 0,
+                "$lte": 300000
+            },
+            "classification": {
+                "$nin": [
+                    "gwp_non_sellable",
+                    "bundle_non_sellable",
+                    "mask_packages",
+                    "testers"
+                ]
+            },
+            "status": "approved",
+            "is_deleted": false,
+            "brand.is_active_in_sociolla": true,
+            "is_disable_in_apps": false,
+            "$or": [
+                {
+                    "is_active_in_sociolla": true
+                },
+                {
+                    "is_active_in_review": true
+                }
+            ],
+            "combinations.is_active_in_sociolla": true
+        },
+        "sort": {
+            "is_in_stock_sociolla": -1,
+            "name": 1,
+            "_id": 1
+        },
+        "projection": {
+            "id": 1,
+            "is_disable_in_apps": 1,
+            "odoo_sync": 1,
+            "brand.name": 1,
+            "brand.id": 1,
+            "is_organic_product": 1,
+            "is_mask": 1,
+            "is_featured_tracking_promo": 1,
+            "preorder": 1,
+            "tactical_promo_type": 1,
+            "curated_mask_boxes": 1,
+            "is_priority": 1,
+            "my_sociolla_sql_id": 1,
+            "description": 1,
+            "hide_pack_content": 1,
+            "sku": 1,
+            "max_limit_per_order": 1,
+            "pack_detail": 1,
+            "name": 1,
+            "slug": 1,
+            "images": 1,
+            "discounts": 1,
+            "visibility": 1,
+            "status": 1,
+            "is_our_pick": 1,
+            "classification": 1,
+            "is_pack": 1,
+            "is_active": 1,
+            "is_deleted": 1,
+            "is_active_in_sociolla": 1,
+            "is_active_in_lulla": 1,
+            "is_active_in_carasun": 1,
+            "is_active_in_cosrx": 1,
+            "is_active_in_offline_store": 1,
+            "is_active_in_review": 1,
+            "created_at": 1,
+            "updated_at": 1,
+            "stores": 1,
+            "is_product_ticket": 1,
+            "is_non_discounted": 1,
+            "bogo_rules": 1,
+            "is_limited": 1,
+            "is_exclusive": 1,
+            "is_soco_event": 1,
+            "is_dangerous": 1,
+            "is_online": 1,
+            "is_bundle_pack": 1,
+            "parent_category": 1,
+            "mask_detail": 1,
+            "is_pink_university_game": 1,
+            "is_out_of_stock_sociolla": 1,
+            "is_out_of_stock_sociolla_vn": 1,
+            "is_out_of_stock_lilla": 1,
+            "is_whats_new": 1,
+            "ranking": 1,
+            "plan_logo_url": 1,
+            "background_image_url": 1,
+            "has_free_products": 1,
+            "curated_plans": 1,
+            "plan_ranking": 1,
+            "is_active_in_sociolla_vn": 1,
+            "total_wishlist": 1,
+            "meta_title": 1,
+            "meta_keywords": 1,
+            "combinations.reserved_qty": 1,
+            "combinations.total_masks": 1,
+            "combinations.saving": 1,
+            "combinations.is_default": 1,
+            "combinations.attributes": 1,
+            "combinations.images": 1,
+            "combinations.product_number": 1,
+            "combinations.reference": 1,
+            "combinations.warehouse_location": 1,
+            "combinations.price": 1,
+            "combinations.stock": 1,
+            "combinations.safety_stock": 1,
+            "combinations.soco_stock": 1,
+            "combinations.is_active_in_review": 1,
+            "combinations.is_active_in_sociolla": 1,
+            "combinations.is_active_in_lulla": 1,
+            "combinations.is_active_in_offline_store": 1,
+            "combinations.is_active_in_carasun": 1,
+            "combinations.is_limited": 1,
+            "combinations.is_deleted": 1,
+            "combinations.is_exclusive": 1,
+            "combinations.is_out_of_stock_sociolla": 1,
+            "combinations.is_out_of_stock_lulla": 1,
+            "combinations.enabled_in_freebies": 1,
+            "combinations.is_out_of_stock_carasun": 1,
+            "combinations.is_out_of_stock_cosrx": 1,
+            "combinations.discounts": 1,
+            "combinations.preorder": 1,
+            "combinations.digital_price_tag": 1,
+            "combinations._id": 1,
+            "sbd_categories.is_promotion": 1,
+            "sbd_categories.is_shop_by_departement": 1,
+            "sbd_categories.name": 1,
+            "sbd_categories.slug": 1,
+            "review_stats.average_rating": 1,
+            "review_stats.average_rating_by_types": 1,
+            "review_stats.total_reviews": 1,
+            "review_stats.total_recommended_count": 1,
+            "default_category.id": 1,
+            "default_category.name": 1,
+            "default_category.slug": 1,
+            "default_category.my_soco_sql_id": 1,
+            "default_category.rating_types": 1,
+            "frame_rules": 1,
+            "is_active_in_offline_store_lilla": 1,
+            "combinations.is_active_in_offline_store_lilla": 1,
+            "thirty_days_total_orders": 1,
+            "seven_days_total_orders": 1,
+            "default_combination.available_for_guest": 1,
+            "combinations.available_for_guest": 1
+        },
+        "limit": 10,
+        "maxTimeMS": 20000,
+        "collation": {
+            "locale": "en",
+            "strength": 1
+        },
+        "lsid": {
+            "id": {
+                "$uuid": "5a8906b4-0337-4acf-9a83-50ad45a51151"
+            }
+        },
+        "$db": "catalog3",
+        "$readPreference": {
+            "mode": "nearest",
+            "maxStalenessSeconds": 120
+        }
+    }
+]
