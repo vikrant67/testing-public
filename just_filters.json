@@ -1,4 +1,4 @@
-[
+
     {
         "find": "products",
         "filter": {
@@ -216,4 +216,3 @@
             "maxStalenessSeconds": 120
         }
     }
-]
